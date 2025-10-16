@@ -226,7 +226,7 @@ main{
 
 .events-card-2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
   width: 80%;
   margin-top: 30px;
@@ -490,4 +490,111 @@ footer{
 
 
 /* footer end here */
+
+
+/* THE EVENT PAGE START HERE */
+.dark-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.drake-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    gap: 20px;
+    padding: 30px;
+
+}
+.drake-drake-img-img{
+    width: 400px;
+    height: 450px ;
+}
+.drake-img{
+    background-image: url(/img/_.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
+    border-radius: 30px;
+    flex-shrink: 0;
+}
+.drake-card h1{
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.drake-card p{
+    margin-top: 20px;
+    line-height: 1,6;
+}
+
+.drake-card .price{
+    display: block;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: gray;
+
+}
+.buy-btn {
+    background-color: #242565;
+    display: block;
+    margin: 25px auto 0 ;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+    justify-self: center;
+}
+.buy-btn:hover {
+  background-color: #3a3bb0;
+}
+
+/* THE HERO EVENT SECTION START HERE */
+.event-container{
+    background-image: url(img/angel-arcalle-QQ_kArzQ4BM-unsplash.jpg); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 80vh;  
+    /* filter: brightness(50%); */
+}
+
+.event-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.hero-event-container{
+    color: white;
+    text-align: center;
+}
+
+.hero-event-container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.hero-event-container .time{
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 70px;
+}
+
+/* THE HERO EVENT SECTION END HERE */
+
+
+/* THE EVENT PAGE END HERE */
+
+
 
