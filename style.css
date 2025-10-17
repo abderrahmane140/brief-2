@@ -626,7 +626,7 @@ footer{
     height: 450px ;
 }
 .drake-img{
-    background-image: url(/img/_.jpeg);
+    background-image: url(img/_.jpeg);
     background-position: center;
     background-size: cover;
     width: 400px;
